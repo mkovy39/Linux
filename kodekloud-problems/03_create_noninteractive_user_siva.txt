@@ -8,4 +8,5 @@ Create a user named siva with a non-interactive shell on App Server 3.
 
 Solution:
 sudo useradd -s /sbin/nologin siva  
+Verify:
 cat /etc/passwd | grep 'siva'
