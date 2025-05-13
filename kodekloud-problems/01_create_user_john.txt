@@ -7,3 +7,6 @@ Assign a unique UID 1655 and designate the home directory as /var/www/john.
 
 Solution:
 sudo useradd -u 1655 -d /var/www/john -m john
+
+Verify:
+cat /etc/passwd | grep 'john'
