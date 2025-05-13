@@ -8,3 +8,8 @@ Add the user stark into the nautilus_noc group. If the user doesn't exist, creat
 Solution:
 sudo groupadd nautilus_noc  
 sudo useradd -g nautilus_noc stark
+
+Verify:
+getent group GROUP_NAME
+groups USERNAME
+
