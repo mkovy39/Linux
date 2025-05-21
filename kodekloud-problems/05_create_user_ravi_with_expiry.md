@@ -1,6 +1,4 @@
 
-
-````markdown
 # Task 05: Create Temporary User with Expiry Date
 
 ## Problem
