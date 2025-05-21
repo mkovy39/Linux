@@ -32,5 +32,3 @@ getent group nautilus_noc
 ```bash
 groups stark
 ```
-
-```
