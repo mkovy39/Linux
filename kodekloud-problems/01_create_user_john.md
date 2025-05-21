@@ -25,5 +25,3 @@ sudo useradd -u 1655 -d /var/www/john -m john
 cat /etc/passwd | grep 'john'
 ```
 
-```
-
