@@ -79,9 +79,9 @@ nano ~/.ssh/config
 
 ```ssh
 Host sandbox
-    HostName 192.168.22.149
-    User ovy
-    IdentityFile ~/.ssh/id_rsa
+    HostName <server_ip>
+    User <user_name>
+    IdentityFile <private_key_path>
 ```
 
 ### Step 3: Connect with Alias
@@ -107,13 +107,13 @@ sudo nano /etc/hosts
 ### Step 2: Add Entry
 
 ```
-192.168.22.149   sandbox.local
+<server_ip>   <desired_server_name>
 ```
 
 ### Step 3: Connect Using New Hostname
 
 ```bash
-ssh ovy@sandbox.local
+ssh user@server_name
 ```
 
 ---
@@ -130,4 +130,4 @@ ssh ovy@sandbox.local
 
 > Created for documentation and practice.
 > Author: Md. Khiruzzaman
-> Date: 2025
+> Date: 25/06/2025
